@@ -10,7 +10,7 @@ while mag < different_mag:
     mag += 1
 print(str(total_ammo) + " ammo held")
 game_time = int(input("How many minutes is the game? >> "))
-if game_time != 0:
+if game_time > 0:
     ammo_per_minutes = total_ammo / game_time
     print(str(ammo_per_minutes) + " shots per minute")
 else: 
