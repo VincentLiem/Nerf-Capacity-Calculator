@@ -1,4 +1,3 @@
-# Write your code here :-)
 internal_clip = input("Internal clip capacity? >> ")
 different_mag = int(input("How many different magazine/speedloader sizes? >> "))
 total_ammo = int(internal_clip)
