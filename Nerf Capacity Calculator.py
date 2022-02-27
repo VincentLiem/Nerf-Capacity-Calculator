@@ -19,7 +19,7 @@ if save_file == "Y" or save_file == "y":
     blaster_name = input("Blaster name >> ")
     with open(blaster_name + ' Capacity.txt', 'w') as save:
         save.write(blaster_name + '\n')
-        save.write(str(total_ammo) + ' ammo held total')
+        save.write(str(total_ammo) + ' ammo held total\n')
     save.close()
 else:
     pass
