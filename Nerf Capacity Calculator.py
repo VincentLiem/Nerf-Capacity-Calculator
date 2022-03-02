@@ -12,14 +12,14 @@ game_time = int(input("How many minutes is the game? >> "))
 if game_time > 0:
     ammo_per_minutes = total_ammo / game_time
     print(str(ammo_per_minutes) + " shots per minute")
-else: 
+else:
     print("No game time entered")
 save_file = input("Save as text file? (Y/N) >> ")
 if save_file == "Y" or save_file == "y":
     blaster_name = input("Blaster name >> ")
     with open(blaster_name + ' Capacity.txt', 'w') as save:
         save.write(blaster_name + '\n')
-        save.write(str(total_ammo) + ' ammo held total\n')
+        save.write(str(total_ammo) + ' ammo held total')
     save.close()
 else:
     pass
