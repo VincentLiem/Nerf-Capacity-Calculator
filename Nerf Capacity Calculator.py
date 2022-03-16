@@ -15,7 +15,7 @@ if game_time > 0:
 else:
     print("No game time entered")
 save_file = input("Save as text file? (Y/N) >> ")
-if save_file == "Y" or save_file == "y":
+if save_file.lower() == "y" or save_file.lower() == "yes":
     blaster_name = input("Blaster name >> ")
     blaster_name = blaster_name[0].upper() + blaster_name[1:]
     with open(blaster_name + ' Capacity.txt', 'w') as save:
