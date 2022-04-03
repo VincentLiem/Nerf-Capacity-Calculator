@@ -21,6 +21,5 @@ if save_file.lower() == "y" or save_file.lower() == "yes":
     with open(blaster_name + ' Capacity.txt', 'w') as save:
         save.write(blaster_name + '\n')
         save.write(str(total_ammo) + ' ammo held total')
-    save.close()
 else:
     pass
