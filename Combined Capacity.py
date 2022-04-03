@@ -8,4 +8,3 @@ with open(result_file_name, 'w') as combined:
             if file != result_file_name:
                 contents = opened.read()
                 combined.write(contents +'\n')
-        opened.close()
